@@ -76,13 +76,13 @@ public class MutiChooseImageActivity extends Activity implements View.OnClickLis
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.btn_cancel:
-                onBackPressed();
-                break;
-            case R.id.btn_send:
-                sendImage();
-                break;
+        if(v.getId()==R.id.btn_cancel){
+            onBackPressed();
+            return;
+        }
+        if(v.getId()==R.id.btn_send){
+            sendImage();
+            return;
         }
     }
 
