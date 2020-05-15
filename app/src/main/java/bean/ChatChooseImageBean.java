@@ -1,0 +1,37 @@
+package bean;
+
+import java.io.File;
+
+/**
+ * Created by cxf on 2018/7/17.
+ */
+
+public class ChatChooseImageBean{
+    private File mImageFile;
+
+    private boolean mChecked;
+
+    public ChatChooseImageBean(File imageFile) {
+        mImageFile = imageFile;
+    }
+    public ChatChooseImageBean(File imageFile,boolean mChecked) {
+        mImageFile = imageFile;
+        this.mChecked = mChecked;
+    }
+
+    public File getImageFile() {
+        return mImageFile;
+    }
+
+    public void setImageFile(File imageFile) {
+        mImageFile = imageFile;
+    }
+
+    public boolean isChecked() {
+        return mChecked;
+    }
+
+    public void setChecked(boolean checked) {
+        mChecked = checked;
+    }
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--支持多种翻页方式-->
+    <declare-styleable name="TurnPageView">
+        <!--翻页的方式-->
+        <attr name="direction" format="enum">
+            <enum name="LeftToRight" value="0"/>
+            <enum name="LeftTopToRight" value="1"/>
+            <enum name="LeftBottomToRight" value="2"/>
+            <enum name="RightToLeft" value="3"/>
+            <enum name="RightTopToLeft" value="4"/>
+            <enum name="RightBottomToLeft" value="5"/>
+        </attr>
+        <!--翻页所要的时间-->
+        <attr name="turn_page_time" format="integer"/>
+        <!--前一次翻页和后一次翻页的时间间隔-->
+        <attr name="turn_page_duration" format="integer"/>
+        <!--是否自动翻页-->
+        <attr name="turn_page_auto" format="boolean"/>
+        <!--是否允许触摸翻页-->
+        <attr name="turn_page_onTouch" format="boolean"/>
+        <!--是否需要添加点击事件（添加点击事件之后点击不会产生翻页效果）-->
+        <attr name="need_click" format="boolean"/>
+        <!--绘制翻页背景颜色-->
+        <attr name="bg_color" format="color"/>
+    </declare-styleable>
+    <!--水平一般翻页-->
+    <declare-styleable name="TurnPageH">
+        <!--翻页的方式-->
+        <attr name="direction_h" format="enum">
+            <enum name="LeftToRight_h" value="0"/>
+            <enum name="RightToLeft_h" value="1"/>
+            <enum name="MiddleToLeftAndRight_h" value="2"/>
+        </attr>
+        <!--翻页所要的时间-->
+        <attr name="turn_page_time_h" format="integer"/>
+        <!--前一次翻页和后一次翻页的时间间隔-->
+        <attr name="turn_page_duration_h" format="integer"/>
+        <!--是否自动翻页-->
+        <attr name="turn_page_auto_h" format="boolean"/>
+        <!--是否允许触摸翻页-->
+        <attr name="turn_page_onTouch_h" format="boolean"/>
+        <!--是否需要添加点击事件（添加点击事件之后点击不会产生翻页效果）-->
+        <attr name="need_click_h" format="boolean"/>
+        <!--绘制翻页背景颜色-->
+        <attr name="bg_color_h" format="color"/>
+    </declare-styleable>
+    <!--垂直一般翻页-->
+    <declare-styleable name="TurnPageV">
+        <!--翻页的方式-->
+        <attr name="direction_v" format="enum">
+            <enum name="TopToBottom_v" value="0"/>
+            <enum name="BottomToTop_v" value="1"/>
+            <enum name="MiddleToTopAndBottom_v" value="2"/>
+        </attr>
+        <!--翻页所要的时间-->
+        <attr name="turn_page_time_v" format="integer"/>
+        <!--前一次翻页和后一次翻页的时间间隔-->
+        <attr name="turn_page_duration_v" format="integer"/>
+        <!--是否自动播放-->
+        <attr name="turn_page_auto_v" format="boolean"/>
+        <!--是否允许触摸翻页-->
+        <attr name="turn_page_onTouch_v" format="boolean"/>
+        <!--是否需要添加点击事件（添加点击事件之后点击不会产生翻页效果）-->
+        <attr name="need_click_v" format="boolean"/>
+        <!--绘制翻页背景颜色-->
+        <attr name="bg_color_v" format="color"/>
+    </declare-styleable>
+</resources>
