@@ -4,7 +4,7 @@
 > 2：支持水平从左往右，从右往左，从中间往两边开始翻页；  
 > 3：支持垂直从上到下，从下到上，从中间往两端开始翻页；   
 > 4：支持手动，自动翻页；  
-> 5:翻页用的图片资源可以来自项目目录下的资源文件夹，也支持根据网络路径异步下载，同时还可以获取本地图库资源；
+> 5: 翻页用的图片资源可以来自项目目录下的资源文件夹，也支持根据网络路径异步下载，同时还可以获取本地图库资源；
 ### HOW TO USE ?
 #### first（添加maven）
 ` allprojects {
@@ -33,7 +33,7 @@ bg_color  | 绘制翻页背景颜色 |  color  | 0xfddacab0 | NO
 
 ### TurnPageView direction values
 Attribute  | Describe  | Type | value 
----- | ----- |  --- | ---- | -----
+---- | ----- |  --- | ---- 
 LeftToRight  | 从左往右翻页 |  integer  | 0
 LeftTopToRight  | 从左上角往右翻页 |  integer  | 1
 LeftBottomToRight  | 从左下角往右翻页 |  integer  | 2 
@@ -43,14 +43,14 @@ RightBottomToLeft  | 从右下角往左翻页 |  integer  | 5
 
 ### TurnPageH direction values
 Attribute  | Describe  | Type | value 
----- | ----- |  --- | ---- | -----
+---- | ----- |  --- | ---- 
 LeftToRight_h  | 从左往右翻页 |  integer  | 0
 RightToLeft_h  | 从右往左翻页 |  integer  | 1
 MiddleToLeftAndRight_h  | 从中间往两边翻页 |  integer  | 2 
 
 ### TurnPageV direction values
 Attribute  | Describe  | Type | value 
----- | ----- |  --- | ---- | -----
+---- | ----- |  --- | ---- 
 TopToBottom_v  | 从上往下翻页 |  integer  | 0
 BottomToTop_v  | 从下往上翻页 |  integer  | 1
 MiddleToTopAndBottom_v  | 从中间往两端翻页 |  integer  | 2 
